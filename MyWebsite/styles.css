@@ -1,0 +1,66 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background color and font */
+  body {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  /* Header styles */
+  header {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Techie design elements */
+  .code-snippet {
+    background-color: #222;
+    color: #00ff7f;
+    padding: 1rem;
+    font-family: Consolas, monospace;
+  }
+  
+  .tech-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  /* Apply the spinning animation to the tech-icons on hover */
+  .tech-icons i:hover {
+    animation: spin 2s linear infinite;
+  }
+
+  .tech-icons i {
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+  
+  /* Keyframes for spinning animation */
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Portfolio section */
+  .portfolio {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  /* Footer styles */
+  footer {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  
